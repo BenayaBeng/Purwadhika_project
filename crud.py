@@ -45,7 +45,6 @@ def tambah():
             while True:
                 nip = input('Masukkan NIP Pasien: ')
                 if nip.isdigit():
-                    nip = int(nip)
                     break
                 else:
                     print('Input harus berupa angka')
@@ -60,8 +59,7 @@ def tambah():
                     if gender == 'Pria' or gender == 'Wanita':
                         break
                     else:
-                        print('Gender hanya bisa Pria atau Wanita')
-                
+                        print('Gender hanya bisa Pria atau Wanita')                
                 while True:
                     kontak = input("Masukkan Nomor Kontak Pasien: ")               
                     if kontak.isdigit() and len(kontak) >= 6:
