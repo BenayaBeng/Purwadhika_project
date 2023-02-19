@@ -1,4 +1,4 @@
-
+#Berikut adalah code untuk CRUD Data Pasien Rumah Sakit
 #sudah ada 2 data dummy
 dataPasien = [{'NIP' : '1', 'Nama' : 'Benaya', 'Gender' : 'Pria', 'Kontak' : '081234' , 'Domisili' : 'BSD'},
 {'NIP' : '2', 'Nama' : 'Beng', 'Gender' : 'Pria', 'Kontak' : '0812345' , 'Domisili' : 'GadingSerpong'}]
